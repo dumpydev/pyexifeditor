@@ -74,3 +74,6 @@ print("exposure time: " + str(new_img.exposure_time))
 print("focal length: " + str(new_img.focal_length))
 print("f-stop: " + str(new_img.f_number))
 print("-----------------------------------------------------")
+
+input("Press Enter to exit...")
+exit(0)

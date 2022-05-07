@@ -35,4 +35,6 @@ fileName = input("Please enter the name of the file: ")
 with open(fileName, 'w') as f:
     json.dump(default, f)
 print("-----------------------------------------------------")
-print("${fileName} has been created!")
+print(fileName+" has been created!")
+input("Press Enter to exit...")
+exit(0)
